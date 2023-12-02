@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    background-color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(225, 225, 225);
+    align-items: center;
+    font-size: 1.3rem;
+}
+.logo{
+    font-size: 1.5rem;
+}
+.logo span{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.head{
+    font-weight: 700;
+}
+.head a{
+    padding-inline: 16px;
+    padding-block: 12px;
+}
+.head a:hover{
+    color: aliceblue;
+    background-color: grey;
+    border-radius: 10%;
+}
+.sign>*{
+    padding-inline: 12px;
+    padding-block: 8px;
+    border-radius: 10%;
+}
+.sign>a:last-child{
+    border-left: 1px solid rgb(215, 213, 213);
+    margin-left: 2px;
+}
+.sign a:hover{
+    color: aliceblue;
+    background-color: grey;
+    border-style: none;
+}
+
+/*main*/
+main{
+    display: flex;
+    min-height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+.left>*{
+    margin: 0 0 40px;
+}
+.cart{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.obj{
+    display: flex;
+    height: 250px;
+    width: 500px;
+    align-items: center;
+    background-color: white;
+    margin: 25px;
+    gap: 20px;
+    border-radius: 5%;
+}
+.img{
+    margin: 10px;
+}
+.info{
+    background-color: skyblue;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10%;
+}
+.info img{
+    width: 75px;
+    margin: 10px 5px;
+}
+.info>h4, .info>p{
+    font-size: 1rem;
+    padding: 4px 8px;
+}
+.docs{
+    font-size: 1.2rem;
+}
+.docs form{
+    display: inline;
+}
+.docs select{
+    font-size: 1rem;
+    padding: 4px;
+}
+.docs p{
+    margin: 8px 0;
+}
+.orange{
+    background-color: orange;
+}
+.right{
+    background-color: white;
+}
+.right>*{
+    padding-inline: 24px;
+}
+.right>h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-block: 20px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 1.5rem;
+    margin-block: 20px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    width: 500px;
+    gap: 8px;
+    margin-block: 20px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    padding-bottom: 40px;
+}
+.form input[type=text]{
+    font-size: 1.5rem;
+    flex-grow: 3;
+}
+.form input[type=text]:hover{
+    background-color: rgb(240, 240, 241);
+}
+.form button{
+    font-size: 1.2rem;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-inline: 20px;
+    flex-grow: 1;
+    border-radius: 10%;
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+    font-weight: 700;
+}
+.form button:hover{
+    background-color: beige;
+}
+.showPay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.showtotal{
+    font-size: 1.5rem;
+    color: gray;
+}
+.showmoney{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.button button{
+    width: 100%;
+    padding: 15px 120px;
+    margin: auto;
+    margin-block: 20px;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    border-color: rgb(41, 181, 41);
+    background-color: rgb(41, 180, 41);
+    color: white;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: rgb(64, 195, 64);
+}
